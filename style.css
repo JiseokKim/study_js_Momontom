@@ -11,6 +11,9 @@ body{
   font-size: 8rem;
   margin-bottom: 0px;
 }
+.js-form{
+  margin-bottom: 16px;
+}
 .js-greetings{
   color: white;
   font-size: 3rem;
