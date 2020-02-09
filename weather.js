@@ -10,10 +10,11 @@ function getWeather(lat, lon){
         return response.json();
     }).then(function(json){
         const weatherIcon = json.weather[0].icon;
+        const temprature = json.main.feels_like;
         image.src = `http://openweathermap.org/img/w/${weatherIcon}.png`;
-        const newP = document.createElement("p");
-        const place = document.createTextNode(`,${json.name}`);
-        newP.appendChild(place);
+        const p2 = document.createElement("p");
+        const place = document.createTextNode(` ${temprature}°C, ${json.name}`);
+        p2.appendChild(place);
         weather.appendChild(image);
         weather.appendChild(place);
     });
