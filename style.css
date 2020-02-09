@@ -22,7 +22,8 @@ body{
   margin-bottom: 8px;
 }
 .form,
-.greetings{
+.greetings,
+.todo{
   display:none;
 }
 .showing{
