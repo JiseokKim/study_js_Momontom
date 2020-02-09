@@ -24,10 +24,25 @@ body{
 .greetings{
   display:none;
 }
-
 .showing{
   display:block;
 }
+.memo{
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-left: 35%;
+}
+.js-pendingList{
+  width:25%;
+  float: left;
+  margin: auto;
+}
+.js-finishedList{
+  width:25%;
+  margin: auto;
+}
+
 #icon{
   vertical-align: middle;
   width: 80px;
